@@ -1,0 +1,13 @@
+[package]
+name = "cache2mp4"
+version = "0.2.0"
+authors = ["kimotu4632uz <32472396+kimotu4632uz@users.noreply.github.com>"]
+edition = "2018"
+
+[dependencies]
+chromium_cache_parser = { git = "https://github.com/kimotu4632uz/ChromiumCacheParser.git" }
+
+anyhow = "1.0.34"
+glob = "0.3"
+getopts = "0.2.21"
+
